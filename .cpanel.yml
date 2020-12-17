@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/magang2mikronixm/public_html/ #specify deploy location
+    - /bin/cp -R . $DEPLOYPATH #copy recursively
