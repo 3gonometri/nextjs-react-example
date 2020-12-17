@@ -26,7 +26,7 @@ jobs:
       - name: Build 🔧
         run: |
           yarn export
-          cp .cpanel.yml out
+          cp public/.cpanel.yml out
           touch out/.nojekyll
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_SECRET }}
